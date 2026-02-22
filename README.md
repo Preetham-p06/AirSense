@@ -6,9 +6,13 @@ AirSense is a real-time asthma severity monitoring application that predicts pea
 
 Overview
 
-AirSense estimates a user's peak flow in liters per minute using health metrics and air quality data. It converts the prediction into a percentage of the user's personal best and classifies asthma severity into Green, Yellow, or Red zones.
+Estimates a user's peak flow in liters per minute using health metrics and air quality data
 
-The application also stores previous predictions and visualizes trends over time.
+Converts predictions into a percentage of the user's personal best
+
+Classifies asthma severity into Green, Yellow, or Red zones
+
+Stores previous predictions for trend visualization over time
 
 Technology Stack
 Backend
@@ -31,7 +35,7 @@ Recharts (data visualization)
 
 Model Details
 
-
+Dataset: UCI Air Quality Dataset
 https://www.kaggle.com/datasets/dakshbhalala/uci-air-quality-dataset/data
 
 Model Type: Ridge Regression with feature scaling
@@ -45,8 +49,7 @@ Evaluation Metrics: Mean Absolute Error (MAE) and R² score
 Authors
 
 Preetham Prabhu
+
 Varun Ramanujam
 
 The Ohio State University
-
-
