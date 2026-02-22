@@ -1,17 +1,17 @@
-**AirSense**
+AirSense
 
 This project was built in 24 hours for the OSU AI Hackathon.
 
 AirSense is a real-time asthma severity monitoring application that predicts peak flow using wearable vitals and environmental data. The system combines machine learning, a Flask API, and a React frontend to deliver live asthma risk classification and historical tracking.
 
-**Overview**
-AirSense estimates a user's peak flow in liters per minute using health metrics and air quality data. It then converts the prediction into a percentage of the user's personal best and classifies asthma severity into Green, Yellow, or Red zones.
+Overview
 
-The application also stores previous predictions and displays trends over time.
+AirSense estimates a user's peak flow in liters per minute using health metrics and air quality data. It converts the prediction into a percentage of the user's personal best and classifies asthma severity into Green, Yellow, or Red zones.
+
+The application also stores previous predictions and visualizes trends over time.
 
 Technology Stack
-
-Backend:
+Backend
 
 Python
 
@@ -23,12 +23,11 @@ SQLite (prediction history storage)
 
 Joblib (model serialization)
 
-Frontend:
+Frontend
 
 React
 
 Recharts (data visualization)
-
 
 Model Details
 
@@ -38,12 +37,11 @@ Inputs: Heart rate, respiratory rate, SpO₂, temperature, humidity, AQI
 
 Output: Predicted peak flow (L/min)
 
-Evaluation Metrics: MAE and R² score
-
+Evaluation Metrics: Mean Absolute Error (MAE) and R² score
 
 Authors
 
 Preetham Prabhu
-Varun Ramanujam 
+Varun Ramanujam
 
 The Ohio State University
