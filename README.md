@@ -8,11 +8,11 @@ Overview
 
 Estimates a user's peak flow in liters per minute using health metrics and air quality data
 
-Converts predictions into a percentage of the user's personal best
+Converts the prediction into a percentage of the user's personal best
 
 Classifies asthma severity into Green, Yellow, or Red zones
 
-Stores previous predictions for trend visualization over time
+Stores previous predictions and visualizes trends over time
 
 Technology Stack
 Backend
