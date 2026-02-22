@@ -16,9 +16,12 @@ AirSense is a real-time asthma severity monitoring application that predicts pea
 ---
 ---
 
+
 ## System Architecture
 
-![AirSense System Pipeline](images/system_pipeline.png)
+<p align="center">
+  <img src="images/system_pipeline.png" width="900">
+</p>
 --
 
 ## Technology Stack
@@ -53,5 +56,6 @@ AirSense is a real-time asthma severity monitoring application that predicts pea
 - Varun Ramanujam
 
 The Ohio State University
+
 
 
