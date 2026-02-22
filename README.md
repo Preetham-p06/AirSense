@@ -1,6 +1,6 @@
 # AirSense
 
-This project was built in 24 hours for the OSU AI Hackathon.
+This project was built in 24 hours for the OSU AI Hackathon (Team name: Entourage).
 
 AirSense is a real-time asthma severity monitoring application that predicts peak flow using wearable vitals and environmental data. The system combines machine learning, a Flask API, and a React frontend to deliver live asthma risk classification and historical tracking.
 
@@ -50,6 +50,7 @@ AirSense is a real-time asthma severity monitoring application that predicts pea
 - Varun Ramanujam
 
 The Ohio State University
+
 
 
 
