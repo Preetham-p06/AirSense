@@ -22,6 +22,8 @@ AirSense is a real-time asthma severity monitoring application that predicts pea
 - Python
 - Flask (REST API)
 - Scikit-learn (Ridge Regression model)
+- Pandas (data loading and preprocessing)
+- NumPy (numerical operations)
 - SQLite (prediction history storage)
 - Joblib (model serialization)
 
@@ -48,6 +50,7 @@ AirSense is a real-time asthma severity monitoring application that predicts pea
 - Varun Ramanujam
 
 The Ohio State University
+
 
 
 
