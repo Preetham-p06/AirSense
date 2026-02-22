@@ -14,14 +14,11 @@ AirSense is a real-time asthma severity monitoring application that predicts pea
 - Stores previous predictions and visualizes trends over time
 
 ---
-```mermaid
-flowchart LR
-    A[Apple Watch Vitals<br/>Heart Rate<br/>Resp Rate<br/>SpO₂] --> C
-    B[Weather + AQI<br/>Temperature<br/>Humidity<br/>Air Quality Index] --> C
-    C[ML Regression Model<br/>Ridge + StandardScaler<br/>Predict Peak Flow (L/min)] --> D
-    D[Risk Engine<br/>% of Personal Best<br/>Green / Yellow / Red Classification<br/>Daily Forecast] --> E
-    E[React UI Dashboard<br/>Live Display<br/>Trends<br/>History Tracking]
-```
+---
+
+## System Architecture
+
+![AirSense System Pipeline](images/system_pipeline.png)
 --
 
 ## Technology Stack
@@ -56,4 +53,5 @@ flowchart LR
 - Varun Ramanujam
 
 The Ohio State University
+
 
