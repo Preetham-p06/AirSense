@@ -30,7 +30,7 @@ React
 Recharts (data visualization)
 
 Model Details
-
+https://www.kaggle.com/datasets/dakshbhalala/uci-air-quality-dataset/data
 Model Type: Ridge Regression with feature scaling
 
 Inputs: Heart rate, respiratory rate, SpO₂, temperature, humidity, AQI
@@ -45,3 +45,4 @@ Preetham Prabhu
 Varun Ramanujam
 
 The Ohio State University
+
